@@ -48,7 +48,7 @@ export default function Home() {
     email: "hc55@illinois.edu",
     githubUrl: "https://github.com/hscho421",
     linkedinUrl: "https://www.linkedin.com/in/hyunseok-cho/",
-    resumeUrl: "/assets/resume.pdf"
+    resumeUrl: `${import.meta.env.BASE_URL}assets/resume.pdf`
   };
 
   return (

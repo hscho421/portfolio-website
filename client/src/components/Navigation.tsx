@@ -88,7 +88,7 @@ export function Navigation() {
             <Button
               variant="outline"
               className="ml-4 font-mono border-primary/50 text-primary hover:bg-primary/10 hover:text-primary hover:border-primary"
-              onClick={() => window.open("/assets/resume.pdf", "_blank")}
+              onClick={() => window.open(`${import.meta.env.BASE_URL}assets/resume.pdf`, "_blank")}
             >
               Resume
             </Button>
@@ -142,7 +142,7 @@ export function Navigation() {
                   variant="outline"
                   size="lg"
                   className="mt-6 font-mono border-primary text-primary hover:bg-primary/10"
-                  onClick={() => window.open("/assets/resume.pdf", "_blank")}
+                  onClick={() => window.open(`${import.meta.env.BASE_URL}assets/resume.pdf`, "_blank")}
                 >
                   Resume
                 </Button>

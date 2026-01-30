@@ -7,7 +7,7 @@ export const profile = {
   email: "hc55@illinois.edu",
   linkedinUrl: "https://www.linkedin.com/in/hyunseok-cho/",
   githubUrl: "https://github.com/hscho421",
-  resumeUrl: "/assets/resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}assets/resume.pdf`,
 };
 
 export const experiences = [
