@@ -16,7 +16,7 @@ function Routes() {
 
 function App() {
   return (
-    <Router base="/porfolio-website">
+    <Router base="/portfolio-website">
       <TooltipProvider>
         <SmoothScroll>
           <Toaster />
